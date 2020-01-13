@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: server-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.78.130:8848
+server:
+  port: 8087
+
+
